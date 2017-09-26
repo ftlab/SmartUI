@@ -21,6 +21,8 @@
     </Controls:MetroWindow.RightWindowCommands>
 
     <Grid>
-
+        <local:MainView>
+            
+        </local:MainView>
     </Grid>
 </Controls:MetroWindow>
