@@ -19,7 +19,13 @@
             <Controls:MetroTabItem
                 Header="World"                
                 CloseButtonEnabled="True">
-
+            </Controls:MetroTabItem>
+            <Controls:MetroTabItem>
+                <Controls:MetroTabItem.Header>
+                    <Image Source="pack://siteoforigin:,,,/Resources/school-bus.png"
+                        Height="20" 
+                        Width="20"/>
+                </Controls:MetroTabItem.Header>
             </Controls:MetroTabItem>
         </Controls:MetroTabControl>
     </Grid>
