@@ -9,16 +9,18 @@
              d:DesignHeight="300" 
              d:DesignWidth="300">
     <Grid>
-        <TabControl
+        <Controls:MetroTabControl
             Controls:TabControlHelper.Underlined="SelectedTabItem"
             TabStripPlacement="Left"
             >
-            <TabItem Header="hello">
-                <TextBlock Text="Hello"/>
-            </TabItem>
-            <TabItem Header="World">
-                <TextBlock Text="World"/>
-            </TabItem>
-        </TabControl>
+            <Controls:MetroTabItem Header="Hello">
+                
+            </Controls:MetroTabItem>
+            <Controls:MetroTabItem
+                Header="World"                
+                CloseButtonEnabled="True">
+
+            </Controls:MetroTabItem>
+        </Controls:MetroTabControl>
     </Grid>
 </UserControl>
